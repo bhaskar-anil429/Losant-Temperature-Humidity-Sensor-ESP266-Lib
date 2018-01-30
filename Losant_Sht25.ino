@@ -21,15 +21,11 @@ float humidity_sht25;
 float cTemp;
 float fTemp;
 const char* ssid = "NETGEAR34";
-const char* password = "sillyviolet195";
+const char* password = " pwd";
 
-//const char* LOSANT_DEVICE_ID = "5a6f8f6a02a2340007b19540";
-//const char* LOSANT_ACCESS_KEY = "f6b0b4c8-2c18-4112-b1d2-e3db60daff8c";
-//const char* LOSANT_ACCESS_SECRET = "53831c433079911cc372d1a51ee82d199899a2dbf1f6cdb1663f4c169f8a513b";
-
-const char* LOSANT_DEVICE_ID = "5a7090ce70b48a000767d599";
-const char* LOSANT_ACCESS_KEY = "55211075-8511-4c98-bfb1-91db02be7fcf";
-const char* LOSANT_ACCESS_SECRET = "d29f22631a9d7e7ac07c9fee0bc982139c9579c70657ba0f5480bedf5d879acc";
+const char* LOSANT_DEVICE_ID = "XXXX";
+const char* LOSANT_ACCESS_KEY = "XXXX";
+const char* LOSANT_ACCESS_SECRET = "XXXX";
 WiFiClientSecure wifiClient;
 
 LosantDevice device(LOSANT_DEVICE_ID);
